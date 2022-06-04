@@ -86,10 +86,7 @@ footer{
 }
 
 @media screen and (max-width:768px){
-  /*右の余白を無くす記述*/
- /* .wrap {*/
- /*    overflow: hidden;*/
- /*}*/
+
   header{
     width:100%;
   }
@@ -99,9 +96,10 @@ footer{
     display:block;
   }
 
-.step-box{
-  width: 90%;
-  margin-bottom: 20px;
-  margin:0 auto;
-}
+  .step-box{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
 }
